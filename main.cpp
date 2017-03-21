@@ -5,6 +5,8 @@
 #include <QtGui>
 #include <io.h>
 //add
+//double
+//int
 int main(int argc, char* argv[]) {
     QApplication app(argc, argv);
 using namespace std;
