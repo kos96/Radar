@@ -4,9 +4,6 @@
 #include <QtCore>
 #include <QtGui>
 #include <io.h>
-//add
-//double
-//int
 int main(int argc, char* argv[]) {
     QApplication app(argc, argv);
 using namespace std;
@@ -15,7 +12,7 @@ using namespace std;
 
         qDebug() << test.fileName();
 
-        if (!test.open(QIODevice::ReadOnly)) // Проверка на чтение
+        if (!test.open(QIODevice::ReadOnly)) 
         {
             qDebug() <<"Ошибка открытия" ;
             return 1;
