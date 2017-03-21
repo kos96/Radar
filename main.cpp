@@ -4,7 +4,7 @@
 #include <QtCore>
 #include <QtGui>
 #include <io.h>
-// Добавляем коммент и сохраняем.
+//add
 int main(int argc, char* argv[]) {
     QApplication app(argc, argv);
 using namespace std;
